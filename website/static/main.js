@@ -358,7 +358,7 @@ function toggle(action) {
   window.onload = function () {
     google.accounts.id.initialize({
         // replace your client id below
-        client_id: "507118656948-2ivhb6rn7jvavgtteqh1lnpf0t3151bs.apps.googleusercontent.com",
+        client_id: "774903731059-vev7ne8fk7ulduhqgnte6lf3q2o7vj6m.apps.googleusercontent.com",
         callback: handleCredentialResponse,
         auto_select: true,
         auto: true
