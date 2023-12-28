@@ -1,0 +1,66 @@
+{% extends "base-inner.html" %} {% block title %}About{% endblock %} {% block
+content %}
+<main id="main">
+  <!-- ======= Breadcrumbs ======= -->
+  <section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Plan a Trip</li>
+      </ol>
+      <h2>Plan a Trip</h2>
+    </div>
+  </section>
+  <!-- End Breadcrumbs -->
+
+  <!-- SECTION INNER-PAGE -->
+  <section class="inner-page">
+    <div class="container d-flex justify-content-center">
+      <div class="col" data-aos="fade-up" data-aos-duration="400">
+        <legend>Select A Place</legend>
+        <div class="form-group">
+          <label>Minimal</label>
+          <select
+            class="form-control select2 select2-hidden-accessible"
+            style="width: 100%"
+            tabindex="-1"
+            aria-hidden="true"
+            onchange="getSelectedValue(event)"
+          >
+            <option selected="selected" value="0">
+              Click here to select a place
+            </option>
+            <option value="1">Alaska</option>
+            <option value="2">California</option>
+            <option value="3">Delaware</option>
+            <option value="4">Tennessee</option>
+            <option value="5">Texas</option>
+            <option value="6">Washington</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Minimal</label>
+          <select
+            class="form-control select2 select2-hidden-accessible"
+            style="width: 100%"
+            tabindex="-1"
+            aria-hidden="true"
+            onchange="getSelectedValue(event)"
+          >
+            <option selected="selected" value="0">
+              Click here to select a place
+            </option>
+            <option value="1">Alaska</option>
+            <option value="2">California</option>
+            <option value="3">Delaware</option>
+            <option value="4">Tennessee</option>
+            <option value="5">Texas</option>
+            <option value="6">Washington</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% endblock %}
